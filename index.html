@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Diff-Foley</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+
+	<div id="wrapper" class="divided">
+		<section class="banner style1 orient-left content-align-center image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
+			<div class="content">
+				<h2><strong>Soundify: Generating Audio from Video using Latent Diffusion Models</strong></h2>
+				<p> Paper in preparation, coming soon...</p>
+		</section>
+		<section class="wrapper style1 align-left" id="first">
+			<div class="inner">
+				<h2>Abstract</h2>
+				<p>
+					With the surge in the field of text-to-video generation,
+					the application value of generating audio directly from silent videos has increased.
+					We introduce Soundify, an audio
+					synthesis method based on a Latent Diffusion Model (LDM).
+					We employ Contrastive Audio-Visual Pretraining (CAVP) to learn more temporally and semantically aligned features. In the
+					diffusion model, we utilize prior information similar to ControlNet, which enhances the temporal consistency between audio and video. Additionally, we incorporate text modality
+					information to improve the sound generation capability in static scenes.
+				</p>
+			</div>
+		</section>
+		<section class="wrapper style1 align-center">
+			<div class="inner">
+				<h2>Demos</h2>
+				<p><strong>It is recommended to use earphones to hear the demos videos, raise the volume and zoom in the videos.</strong>
+				</p>
+			</div>
+
+			<div class="items style1 small">
+				<section>
+					<span class="video">
+						<video controls class="html-video" width=100% height=auto>
+							<source src="videos/caixukun.mp4" type="video/mp4">
+						</video>
+					</span>
+					<p>Playing Drum</p>
+				</section>
+				<section>
+					<span class="video">
+						<video controls class="html-video" width=100% height=auto>
+							<source src="videos/forest.mp4" type="video/mp4">
+						</video>
+					</span>
+					<p></p>
+				</section>
+				<section>
+					<span class="video">
+						<video controls class="html-video" width=100% height=auto>
+							<source src="videos/kitchen.mp4" type="video/mp4">
+						</video>
+					</span>
+					<p></p>
+				</section>
+				<section>
+					<span class="video">
+						<video controls class="html-video" width=100% height=auto>
+							<source src="videos/billiards.mp4" type="video/mp4">
+						</video>
+					</span>
+					<p></p>
+				</section>
+				<section>
+					<span class="video">
+						<video controls class="html-video" width=100% height=auto>
+							<source src="videos/horse.mp4" type="video/mp4">
+						</video>
+					</span>
+					<p></p>
+				</section>
+
+				<section>
+					<span class="video">
+						<video controls class="html-video" width=100% height=auto>
+							<source src="videos/kexin.mp4" type="video/mp4">
+						</video>
+					</span>
+					<p></p>
+				</section>
+			</div>
+	</div>
+
+	<div class="inner">
+		<p> use template from: https://diff-foley.github.io/
+		</p>
+	</div>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
